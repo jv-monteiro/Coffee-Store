@@ -6,26 +6,48 @@ header{
     background-image: url("source/[GetPaidStock.com]-6203e2522a3a2.jpg");
     background-color: #cccccc;
 }
+.container-fluid{
+    padding-left: 100px;
+}
+.navbar-nav {
+    padding-right: 100px;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link,
+.navbar-dark .nav-item .nav-link,
+.navbar-dark .nav-item .nav-link{
+    padding-right:10px;
+}
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item .nav-link:focus,
+.navbar-dark .nav-item:hover .nav-link {
+    background-color: #cccccc5e;
+    border-radius: 5px;
+    transition: 1s;
+    color: rgb(233, 124, 0);
+}
+
 .first-banner{
     max-width: 1080px;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 .column{
     min-width: 300px;
     flex-basis: 50%; 
     margin-top: 150px;
-    margin:auto;
+    margin:0 auto;
+    
 }
 .first-banner > .column > img{
     max-width: 300px ;
     padding-left: 50px;
-
 }
 header h1{
     color: orange;
@@ -53,6 +75,9 @@ header p{
 
     margin-top: 50px;
     
+}
+.small-container{
+    margin-left: 30px;
 }
 .col{
     flex-basis: 50%;
@@ -114,6 +139,11 @@ header p{
     margin-top: 50px;
     flex-wrap: wrap;
 }
+.col3:hover{
+    background-color: #cccccc5e;
+    border-radius: 5px;
+    transition: 1s;
+}
 .col3{
     
     flex-basis: 25%;
@@ -147,25 +177,27 @@ header p{
     border-radius: 5px;
 }
 
-.feedbacks > h1{
-    text-align: center;
-    color: white;
+.card {
+    border: none;
+    margin: 0px;
 }
-.small-container-4{
-    display: flex;
-    max-width: 1080px;
-    
-    
-}
-.col4{
-    flex-basis: 30%;
-}
-.text p{
-    color: white;
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
 }
 .rating{
-    max-width: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
-.profile img{
-  border-radius: 100%;
+
+
+footer{
+    background-color:#414141 ;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
